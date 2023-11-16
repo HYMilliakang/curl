@@ -1,0 +1,29 @@
+java -jar agent.jar -jnlpUrl http://172.16.2.26/computer/Win10_VM/jenkins-agent.jnlp -secret 90b6ee882eaddf4404c12db7db2a59ab30c56a283126d6da93d1edc7caf9a3cd -workDir "C:\Jenkins"
+
+https://app.diagrams.net/
+
+iar.exe -project aa.prj release
+
+copy CHANGES CHANGES_%JOB_NAME%_%BUILD_NUMBER%
+
+127.0.0.1
+
+TOOL > CPPCHECK
+
+Use options --xml --xml-version=2
+**/cppcheck.xml
+
+C:\ProgramData\Jenkins\.jenkins\workspace\CURL
+
+https://github.com/microsoft/DirectXTK12.git
+저장소를 tree 대신 dir 명령 실행(빌드)
+cppcheck 돌리고 → warnings로 표시
+cpd 실행하고 → warnings로 표시
+빌드 유발: 매일 새벽 4시 → schedule 0 4 * * *
+
+dash board -> 새로운 item, curl 참조
+
+▶ 기본 브랜치 봐야함: */master 아니고 */main임
+cpp 대소문자도 봐야함 src 폴더명
+
+C:\DevTools\pmd\bin\cpd --minimum-tokens 25 --files ./Src --language cpp --format xml > cpd.xml || exit 0
